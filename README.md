@@ -65,4 +65,21 @@ concat 같은 함수를 사용하여 기존의 배열은 수정하지 않고 새
 - 똑같은 파라미터로 호출된 리듀서 함수는 언제나 똑같은 결과값을 반환해야만 한다.
 
 
-출처) https://react.vlpt.us/redux/
+## 리덕스 아키텍처
+![enter image description here](https://media.vlpt.us/images/jongsunpark88/post/7bf4cf48-98e1-459b-9b5b-ad20602a4688/0_95tBOgxEPQAVq9YO.png)
+
+### Store
+store은 애플리케이션의 현재 state를 보여주는 수많은 key-value 쌍을 가진 하나의 커다란 자바스크립트 객체다.  
+서로 다른 컴포넌트 전체에 걸쳐 섞여 있는 React에서의 state 객체와 달리, store는 하나만 있다. 
+store는 애플리케이션에 state를 제공하고, state가 업데이트될 때마다 view가 다시 렌더링된다.
+
+### Reducer
+reducer 는 2개의 인자를 전달받는 JavaScript 함수이다. 첫 번째 인자는 현재의 state 이고, 두 번째 인자는 action 이다.
+
+### Action
+action 이란 redux 의 state 가 어떻게 변할지 알려주는 인자이다. state 를 변경할 수 있는 유일한 방법이 store 에 action 신호를 보내는 것이라고 redux 에 규정되어 있다. 
+다시 말해 action 은 application 에서 store 에 보내는 일종의 데이터이다.
+
+출처
+https://react.vlpt.us/redux/
+https://code.tutsplus.com/ko/tutorials/getting-started-with-redux-why-redux--cms-30349
