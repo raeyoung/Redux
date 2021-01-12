@@ -81,5 +81,5 @@ action 이란 redux 의 state 가 어떻게 변할지 알려주는 인자이다.
 다시 말해 action 은 application 에서 store 에 보내는 일종의 데이터이다.
 
 출처
-https://react.vlpt.us/redux/
+https://react.vlpt.us/redux/<br>
 https://code.tutsplus.com/ko/tutorials/getting-started-with-redux-why-redux--cms-30349
