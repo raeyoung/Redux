@@ -80,6 +80,7 @@ reducer 는 2개의 인자를 전달받는 JavaScript 함수이다. 첫 번째 �
 action 이란 redux 의 state 가 어떻게 변할지 알려주는 인자이다. state 를 변경할 수 있는 유일한 방법이 store 에 action 신호를 보내는 것이라고 redux 에 규정되어 있다. 
 다시 말해 action 은 application 에서 store 에 보내는 일종의 데이터이다.
 
-출처
+<br>
+출처<br>
 https://react.vlpt.us/redux/<br>
 https://code.tutsplus.com/ko/tutorials/getting-started-with-redux-why-redux--cms-30349
